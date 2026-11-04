@@ -7,7 +7,7 @@
  * Then paste the web-app URL into var ENDPOINT in /contact/index.html
  */
 
-var TO_EMAIL   = "dispatch@teamallied.co";
+var TO_EMAIL   = "michael@teamallied.co";
 var SITE_NAME  = "Team Allied / Allied Restoration";
 
 function doPost(e) {
