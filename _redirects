@@ -1,5 +1,3 @@
-# Old WordPress URL -> New URL (301). GitHub Pages ignores this file; HTML redirect
-# pages handle GH Pages. This file covers Netlify/Cloudflare if the site ever moves there.
 /home/            /           301
 /about-allied/    /about/     301
 /hello-world/     /articles/  301

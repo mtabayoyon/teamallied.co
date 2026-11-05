@@ -164,3 +164,8 @@ footer.site a:hover{color:#fff}
   .estrip a.phone{font-size:1.8rem}
   .fcols{grid-template-columns:1fr}
 }
+
+/* ---- logo ---- */
+.brand-logo{height:46px;width:auto;display:block;background:#fff;padding:7px 12px;border-radius:8px}
+@media(max-width:560px){.brand-logo{height:38px;padding:6px 10px}}
+.foot-logo{height:40px;width:auto;margin-bottom:14px;filter:brightness(0) invert(1);opacity:.95}
