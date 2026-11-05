@@ -169,3 +169,16 @@ footer.site a:hover{color:#fff}
 .brand-logo{height:44px;width:auto;display:block}
 @media(max-width:560px){.brand-logo{height:36px}}
 .foot-logo{height:38px;width:auto;margin-bottom:14px;opacity:.95}
+
+/* ---- photos ---- */
+.photo-rounded{width:100%;border-radius:var(--radius);display:block;box-shadow:0 6px 20px rgba(0,50,98,.12)}
+.hero-photo{position:relative;overflow:hidden;padding:0}
+.hero-photo .hero-bg{position:absolute;inset:0;background-size:cover;background-position:center;z-index:0}
+.hero-photo .hero-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(0,34,63,.92) 0%,rgba(0,50,98,.82) 45%,rgba(0,50,98,.55) 100%)}
+.hero-photo .hero-inner{position:relative;z-index:1;padding:64px 20px}
+@media(max-width:700px){.hero-photo .hero-bg:after{background:linear-gradient(120deg,rgba(0,34,63,.94),rgba(0,50,98,.86))}}
+.photo-band{background-size:cover;background-position:center;background-attachment:fixed}
+@media(max-width:900px){.photo-band{background-attachment:scroll}}
+.photo-band-overlay{background:linear-gradient(120deg,rgba(0,34,63,.9),rgba(0,50,98,.72));padding:64px 0;color:#fff;text-align:center}
+.photo-band-overlay h2{color:#fff}
+.photo-band-overlay p{color:#d7e4f2;max-width:620px;margin:0 auto 22px}
